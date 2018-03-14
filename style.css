@@ -1,6 +1,7 @@
 body{
-   color:   #80CED7;
-   background-color: #005E7C;
+   
+       background-color:red;
+       color:yellow;
         font-size: 1em;
         font-weight: normal;
 }
@@ -10,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:#A0BBA2 !important;
+    background-color: #00316d !important;
    
     }
     
@@ -32,7 +33,7 @@ body{
     font-style: normal;
     font-weight: normal;
     text-transform: normal;
-    color: red !important;
+    color: white !important;
     }
       
     .nav-link{
@@ -45,18 +46,28 @@ body{
         margin: 0 25px;
     }
     .main-navbar li.active{
-        background-color:wheat;
+        background-color: #00316d;
     }
     .dropdown-menu{
         background-color: #C33C54;
         border: 2px solid #C6F6FF;
     }
-    /* carousel */
-    .carousel img{
-        max-height: 600px;
+   /* section two  */
+   
 
-    }
-    /* about content */
+   
+   .section-two .header-content{
+    margin: 10px auto;
+    padding: 40px 60px;
+    margin-top: 100px;
+   }
+   .header-content{
+       background-color:#1B5891;
+   }
+  .header-content p{
+      text-align: justify;
+  }
+        /* about content */
     .about-content{
         padding: 10px 10px;
         margin: 0 auto;

@@ -1,5 +1,6 @@
 body{
-   
+   color: yellow;
+   background-color: red;
         font-size: 1em;
         font-weight: normal;
 }
@@ -87,11 +88,12 @@ p{
    
 }
 
-.sidebar a {
+ a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-   color: yellow;
+    font-size: 16px;
+     color: yellow;
+   
   
 }
 .sidebar li{
@@ -109,6 +111,9 @@ aside{
 }
 .outer-section aside{
 flex: 1;
+}
+.inner-section img{
+    max-width: 200px;
 }
 .inner-section main{
     margin-top: 50px;

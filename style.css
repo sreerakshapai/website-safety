@@ -4,9 +4,6 @@ body{
         font-size: 1em;
         font-weight: normal;
 }
-p{
-    text-align: center;
-}
 
 
 .navbar {
@@ -82,23 +79,28 @@ p{
     display: flex;
     flex-direction: row;
 }
+.outer-section a{
+    color: yellow;
+}
 aside{
     margin-top: 40px;
 }
 .outer-section aside{
     flex: 1;
-    
-    padding-right: 10px;
+    margin: 30px;
+    padding-right:20px;
+    margin-top: 20px;
     border-right: 1px solid #efd648;
 }
 .inner-section img{
     max-width: 200px;
+    
 }
-.inner-section main{
-    margin-top: 50px;
-}
+
 .inner-section{
     flex:3;
+    padding-top: 30px;
+   
 }
 
 /* contact */

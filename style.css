@@ -11,6 +11,9 @@ h1 ,h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
 }
+#main-header{
+    background-color: yellow;
+}
 .navbar {
     margin: 0;
     padding: 0;
@@ -53,7 +56,7 @@ h1 ,h2 {
         background-color: #00316d;
     }
     .dropdown-menu{
-        background-color: #C33C54;
+        background-color: red;
         border: 2px solid #C6F6FF;
     }
     /* carousel */
@@ -89,12 +92,25 @@ h1 ,h2 {
    /* aboutus page */
    .aboutus-content{
        margin: 0 auto;
+       padding-top: 20px;
+       margin-top: 20px;
+       padding: 10px 10px;
+       text-align: center;
+       background-color:yellow;
+       margin-bottom: 20px;
+
+       align-items: center;
 
    }
    .aboutus-content  h2{
        text-align: center;
    }
-   
+   .note {
+    background-color:yellow;
+     padding: 20px 20px;
+     margin-top: 20px;
+   }
+   .note img {max-width: 400px;}
 .outer-section{
     display: flex;
     flex-direction: row;
@@ -130,8 +146,68 @@ aside{
    padding: 20px;
 }
 .why-us img {
-    max-width: 500px;
+    max-width: 400px;
 }
+.our-products{
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 50px 50px;
+}
+.our-products img {
+max-width: 400px;
+}
+/* our-clients */
+.our-clients{
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 50px 50px;
+}
+.our-clients img{
+    max-width: 400px;
+}
+/* owl carousel */
+.owl-carousel p{
+    color: #C33C54;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+}
+
+
+.icon {
+    background: rgba(255, 255, 255, .1);
+    color: rgba(0, 0, 0, .3);
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: -30px;
+    position: absolute; top: 50%;
+    text-align: center;
+    width: 60px; height: 60px;
+  }
+
+.owl-next, 
+.owl-prev {
+  height: 100%;    
+margin: 0 !important;
+}
+.owl-next {
+  right: 0;
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next:hover .icon, 
+.owl-prev:hover .icon {
+  background: rgba(195, 60, 84,0.8);
+  color: rgba(255, 255, 255, .9);
+  
+}
+.icon-arrow-left7 {left: 0; }
+.icon-arrow-left7:before { content: "\f054";}
+.icon-arrow-right7 { right: 0; }
+.icon-arrow-right7:before { content: "\f053"; }
+
 /* contact */
 #contact {
     width:70%; 
@@ -212,7 +288,7 @@ aside{
 
     .carousel img{
         width: 100%;
-        max-height: 500px;
+        max-height: 400px;
      }
     
 }
@@ -221,7 +297,7 @@ aside{
 
     .carousel img{
         width: 100%;
-        max-height: 500px;
+        max-height: 400px;
      }
 
 }

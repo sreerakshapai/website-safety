@@ -9,11 +9,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
        <main>
             <header id="main-header">
+                <div class="top-bar">  
+                    <h1 class="text-center"><i class="fas fa-fire-extinguisher"></i>TVS SAFETY PRODUCTS</h1>
+                    <h5 class="text-center"> kolar, Karnataka.</h5>
+                  </div> 
                 <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light">
                   <a class="navbar-brand"><i class="fas fa-fire-extinguisher"></i><span class="logo">TVS</span></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,6 +118,8 @@
                       <li>Lorem ipsum dolor sit amet.</li>
                       <li>Lorem ipsum dolor sit amet.</li>
                     </ul>
+                    <button type="button" class="btn btn-secondary">Download Brochure</button>
+
                   </div>
                   <div class="col-md-7">
                       <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
@@ -120,11 +128,78 @@
             </section>
             <section class="our-products">
               <h2 class="text-center">Our Products</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nihil ipsa, ullam voluptates provident dolor repellat natus tenetur culpa autem itaque reprehenderit expedita, numquam placeat iusto porro temporibus officiis recusandae totam nemo quae voluptatem libero. Corrupti molestiae possimus vero asperiores illo praesentium assumenda numquam, adipisci incidunt provident unde reiciendis voluptatem doloremque delectus, officia optio dolores magnam tempora rerum qui iure!</p>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                  </div>
+                  <div class="col-md-4">
+                      <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                      </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                      <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                      </div>
+                      <div class="col-md-4">
+                          <img src="/home/vibs/Documents/sriraksha/learn/html/website-safety/slider-images/slider1.jpeg">
+                        </div>
+                  </div>
+              </section>
+              <section class="our-clients">
+                <h2 class="text-center">Our Clients</h2>
+                <div class="owl-carousel">
+                    <div><img src="slider-images/slider3.jpeg" alt=""></div>
+                    <div><img src="slider-images/slider2.jpeg" alt=""></div>
 
-            </section>
+                    <div><img src="slider-images/slider1.jpeg" alt=""></div>
+
+                    <div><img src="slider-images/slider2.jpeg" alt=""></div>
+
+                    <div><img src="slider-images/slider3.jpeg" alt=""></div>
+
+                  </div>
+              </section>
           </main>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="owlcarousel/owl.carousel.min.js"> </script> 
+<script>
+$('.owl-carousel').owlCarousel({
+autoplay: true,
+center: true,
+loop: true,
+nav: true,
+navText: ["<span class='icon icon-arrow-left7'></span>","<span class='icon icon-arrow-right7'></span>"],
+items: 1,
+responsive : {
+768 : {
+items : 3,
+}
+}
+});
+</script>
+
+<script>
+  var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+</script>
 </body>
 </html>

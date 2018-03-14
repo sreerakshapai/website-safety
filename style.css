@@ -1,6 +1,5 @@
 body{
-    background-color:red ;
-        color:yellow;
+   
         font-size: 1em;
         font-weight: normal;
 }
@@ -105,8 +104,14 @@ p{
     display: flex;
     flex-direction: row;
 }
+aside{
+    margin-top: 40px;
+}
 .outer-section aside{
 flex: 1;
+}
+.inner-section main{
+    margin-top: 50px;
 }
 .inner-section{
     flex:3;

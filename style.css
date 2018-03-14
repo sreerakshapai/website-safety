@@ -1,6 +1,6 @@
 body{
-   color: yellow;
-   background-color: red;
+   color:   #80CED7;
+   background-color: #005E7C;
         font-size: 1em;
         font-weight: normal;
 }
@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:yellow !important;
+    background-color:#A0BBA2 !important;
    
     }
     

@@ -93,8 +93,7 @@ p{
     text-decoration: none;
     font-size: 25px;
    color: yellow;
-
-   
+  
 }
 .sidebar li{
     list-style: none;
@@ -102,7 +101,16 @@ p{
 .sidebar a:hover {
     color:blue;
 }
-
+.outer-section{
+    display: flex;
+    flex-direction: row;
+}
+.outer-section aside{
+flex: 1;
+}
+.inner-section{
+    flex:3;
+}
 .main {
     margin-left: 100px; 
     font-size: 16px; 

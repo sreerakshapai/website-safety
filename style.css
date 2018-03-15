@@ -95,7 +95,6 @@ h1 ,h2 {
        padding: 10px 10px;
        text-align: center;
        background-color:yellow;
-       margin-bottom: 20px;
 
        align-items: center;
 
@@ -107,7 +106,7 @@ h1 ,h2 {
     background-color:yellow;
      padding: 20px 20px;
    }
-   .note img {max-width: 400px;}
+   .note img {max-width: 300px;}
 .outer-section  {
     display: flex;
     flex-direction: row;
@@ -144,26 +143,23 @@ aside{
 
 /* why us */
 .why-us{
-   background-color:yellow;
    padding: 20px;
 }
 .why-us img {
     max-width: 400px;
 }
 .our-products{
-    background-color: yellow;
     padding: 50px 50px;
 }
 .our-products img {
-max-width: 400px;
+max-width: 300px;
 }
 /* our-clients */
 .our-clients{
-    background-color: yellow;
     padding: 50px 50px;
 }
 .our-clients img{
-    max-width: 400px;
+    max-width: 300px;
 }
 /* owl carousel */
 .owl-carousel p{

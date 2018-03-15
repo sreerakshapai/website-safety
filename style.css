@@ -14,6 +14,7 @@ h1 ,h2 {
 #main-header{
     background-color: yellow;
 }
+
 .navbar {
     margin: 0;
     padding: 0;
@@ -71,7 +72,6 @@ h1 ,h2 {
    .section-two .header-content{
     margin: 10px auto;
     padding: 40px 60px;
-    margin-top: 100px;
    }
    .header-content{
     background-color:yellow;
@@ -92,8 +92,6 @@ h1 ,h2 {
    /* aboutus page */
    .aboutus-content{
        margin: 0 auto;
-       padding-top: 20px;
-       margin-top: 20px;
        padding: 10px 10px;
        text-align: center;
        background-color:yellow;
@@ -108,7 +106,6 @@ h1 ,h2 {
    .note {
     background-color:yellow;
      padding: 20px 20px;
-     margin-top: 20px;
    }
    .note img {max-width: 400px;}
 .outer-section  {
@@ -147,7 +144,6 @@ aside{
 
 /* why us */
 .why-us{
-    margin-top: 20px;
    background-color:yellow;
    padding: 20px;
 }
@@ -156,7 +152,6 @@ aside{
 }
 .our-products{
     background-color: yellow;
-    margin-top: 20px;
     padding: 50px 50px;
 }
 .our-products img {
@@ -165,7 +160,6 @@ max-width: 400px;
 /* our-clients */
 .our-clients{
     background-color: yellow;
-    margin-top: 20px;
     padding: 50px 50px;
 }
 .our-clients img{
@@ -215,69 +209,69 @@ margin: 0 !important;
 .icon-arrow-right7:before { content: "\f053"; }
 
 /* contact */
-#contact {
-    width:70%; 
-    height:100%; 
-    margin :0 auto; 
-    margin-top: 10px;
- 
-    }
-
-.container {width:960px; height:auto; margin: 0 auto; padding: 50px 0;}
-
-#contact .container form input,
-#contact .container form textarea {
-    width:97.4%;
-    height:30px;
-    padding:5px 10px;
-    font-size: 12px;
-    color:#999;
-    letter-spacing:1px;
-   
-
-    border:2px solid #FFF;
-    margin-bottom:25px;
- 
+#contact{
+    padding-bottom: 10px;
 }
-#contact .container form input:focus,
-#contact .container form textarea:focus {
-  border:2px solid #dd4545;
+
+
+
+input[id="formm"] {
+  
+  width: 500px;
+  background-color:white;
+  height: 30px;
+  font-size: 1.1em;
 }
-#contact .container form textarea {
-    height:150px;}
 
-#contact .container form .submit {
-    width:100%;
-    padding:5px 10px;
-    font-size: 12px;
-    letter-spacing:1px;
+textarea {
  
-    height:40px;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    border:2px solid #b43838;
-  -webkit-transition:all .1s ease-in-out;
-    -moz-transition:all .1s ease-in-out;
-    -ms-transition:all .1s ease-in-out;
-    -o-transition:all .1s ease-in-out;
-    transition:all .1s ease-in-out;}
+  width: 500px;
+  background-color:white;
+  height: 30px;
+  font-size: 1.5em;
+  resize: none;
+  height: 100px;
+}
 
-#contact .container form .submit:hover {
-    color:red;
-    border:2px solid maroon;
-    background:yellow;
-    cursor:pointer;}
+input[type="submit"] {
+  width: 75px;
+  background-color:red;
+  color: white;
+  border: solid black 3px;
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+}
 
-#contact .container form .required {
-    color:#b43838;}
+input[type="submit"]:hover {
+  border: 3px solid black;
+  background-color: yellow;
+  color:red;}
+
+input[type="reset"] {
+  width: 75px;
+  background-color: red;
+  color: white;
+  border: solid black 3px;
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+}
+
+input[type="reset"]:hover {
+  border: solid black 3px;
+  background-color:yellow;
+color: red;
+}
+
+
 /* footer */
-.main-footer ul  {
- 
- text-align: center;
+.main-footer  ul {
  list-style: none;
+ text-align: justify;
 }
 .main-footer{
-    margin-top:20px;
+    display: block;
 }
 .main-footer button{
     background:firebrick;
@@ -288,9 +282,19 @@ margin: 0 !important;
     text-decoration: none;
     color: red;
 }
+ .main-footer a:hover { 
+    background-color:wheat;
+}
 footer{
     background-color: yellow;
     color: red
+}
+footer .connect{
+    text-align: center;
+
+}
+footer .address{
+    text-align: center;
 
 }
 @media only screen and (max-width: 1024px){

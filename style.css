@@ -50,9 +50,17 @@ h1 ,h2 {
         
     }
     
-    .navbar-brand{
-        margin: 0 25px;
-    }
+    .navbar-brand .logo{
+        font-family: 'Berkshire Swash', cursive;
+       
+        }
+        
+        .navbar-brand i,
+        .navbar-brand .logo {
+        font-size: 3rem;
+        padding: 10px;
+        margin: 0 auto;
+        }
     .main-navbar li.active{
         background-color: #00316d;
     }
@@ -123,15 +131,22 @@ aside{
     margin-top: 40px;
 }
 .outer-section aside{
-    flex: 1;
-    margin: 30px;
-    padding-right:20px;
+    flex:1;
+    padding-right:10px;
     margin-top: 20px;
     border-right: 1px solid #efd648;
 }
+/* producttype */
+ .inner-section .fire-extin{
+    border: 2px solid black;
+}
+ .inner-section .inner-content  {
+background-color: yellow;
+}
 
 .inner-section img{
-    max-width: 500px;
+    max-width: 300px;
+    padding: 10px 10px;
     
 }
 
@@ -140,7 +155,9 @@ aside{
     padding-top: 30px;
    
 }
-
+table th {
+    padding: 10px 20px;
+}
 /* why us */
 .why-us{
    padding: 20px;
@@ -168,7 +185,6 @@ max-width: 300px;
     text-transform: uppercase;
  
 }
-
 
 .icon {
     background: rgba(255, 255, 255, .1);
@@ -203,6 +219,9 @@ margin: 0 !important;
 .icon-arrow-left7:before { content: "\f054";}
 .icon-arrow-right7 { right: 0; }
 .icon-arrow-right7:before { content: "\f053"; }
+
+
+
 
 /* contact */
 #contact{

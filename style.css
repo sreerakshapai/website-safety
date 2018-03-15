@@ -272,9 +272,12 @@ margin: 0 !important;
     color:#b43838;}
 /* footer */
 .main-footer ul  {
- margin-top:20px;
+ 
  text-align: center;
  list-style: none;
+}
+.main-footer{
+    margin-top:20px;
 }
 .main-footer a{
     text-decoration: none;

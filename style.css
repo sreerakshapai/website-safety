@@ -4,6 +4,8 @@ body{
        color:firebrick;
         font-size: 1em;
         font-weight: normal;
+        font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 h1 ,h2 {
@@ -41,8 +43,9 @@ h1 ,h2 {
     font-style: normal;
     font-weight: normal;
     text-transform: normal;
-    color: white !important;
+    color: red !important;
     }
+    
       
     .nav-link{
         display: inline;
@@ -65,9 +68,11 @@ h1 ,h2 {
         background-color: #00316d;
     }
     .dropdown-menu{
-        background-color: red;
+        background-color: yellow;
+      
         border: 2px solid #C6F6FF;
     }
+   
     /* carousel */
     .carousel img{
        width: 100%;
@@ -161,12 +166,15 @@ table th {
 /* why us */
 .why-us{
    padding: 20px;
+   margin-top: 20px;
 }
 .why-us img {
     max-width: 400px;
 }
 .our-products{
     padding: 50px 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .our-products img {
 max-width: 300px;
@@ -174,7 +182,10 @@ max-width: 300px;
 /* our-clients */
 .our-clients{
     padding: 50px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .our-clients img{
     max-width: 300px;
 }

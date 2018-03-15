@@ -281,6 +281,7 @@ margin: 0 !important;
 }
 .main-footer a{
     text-decoration: none;
+    color: red;
 }
 footer{
     background-color: yellow;

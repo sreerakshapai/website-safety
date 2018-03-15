@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-       <main>
+       <main class="container"> 
             <header id="main-header">
                 <div class="top-bar">  
                     <h1 class="text-center"><i class="fas fa-fire-extinguisher"></i>TVS SAFETY PRODUCTS</h1>
@@ -213,20 +213,23 @@
                         </div>
                         <div class="col-md-4 connect">
                           <h2>Quick Connect</h2>
-                            <form>
+                         
                     
-                                <input type="text" name="first_name" placeholder="NAME" required>
-                                  <br>
-                                  <br>
-                                <input  type="email" name="email" placeholder="EMAIL" required>
-                                <br>
-                                <br>
-                                <textarea name="comments" placeholder="MESSAGE" required ></textarea>
-                                  <br>
-                                  <br>
-                                <button name="send" type="submit" class="submit">SEND</button>
-                                  
-                                </form>
+                                <form action="post">
+                                    <label> Name:  </label><br>
+                                    <input id="formm" maxlength="25" required>
+                                    <br><br>
+                                    <label> Email: </label><br>
+                                    <input id="formm" maxlength="25" required>
+                                    <br><br>
+                                    <label> Subject: </label><br>
+                                    <input id="formm" maxlength="25">
+                                    <br><br>
+                                    <label> Message: </label><br>
+                                    <textarea id="formm" maxlength="150" required></textarea>
+                                    <br><br>
+                                    <input name="button" type="reset" value="Clear"> <input name="button" type="submit" value="Send">
+                                  </form>
                         </div>
                    
                     </div>

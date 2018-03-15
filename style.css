@@ -217,7 +217,7 @@ margin: 0 !important;
 
 input[id="formm"] {
   
-  width: 500px;
+  width: 300px;
   background-color:white;
   height: 30px;
   font-size: 1.1em;
@@ -225,7 +225,7 @@ input[id="formm"] {
 
 textarea {
  
-  width: 500px;
+  width: 300px;
   background-color:white;
   height: 30px;
   font-size: 1.5em;
@@ -270,6 +270,7 @@ color: red;
  list-style: none;
  text-align: justify;
 }
+
 .main-footer{
     display: block;
 }
@@ -293,6 +294,7 @@ footer .connect{
     text-align: center;
 
 }
+
 footer .address{
     text-align: center;
 

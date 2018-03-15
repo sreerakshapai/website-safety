@@ -271,10 +271,13 @@ margin: 0 !important;
 #contact .container form .required {
     color:#b43838;}
 /* footer */
-.main-footer {
-    margin-top:20px;
-display: block;
-    
+.main-footer ul  {
+ margin-top:20px;
+ text-align: center;
+ list-style: none;
+}
+.main-footer a{
+    text-decoration: none;
 }
 footer{
     background-color: yellow;

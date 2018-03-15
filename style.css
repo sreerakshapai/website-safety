@@ -1,7 +1,7 @@
 body{
    
       
-       color:red;
+       color:firebrick;
         font-size: 1em;
         font-weight: normal;
 }
@@ -271,17 +271,16 @@ margin: 0 !important;
 #contact .container form .required {
     color:#b43838;}
 /* footer */
-.main-footer footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:yellow;
-    color: red;
-    display: flex;
-    text-align:justify;
-    align-content: center;
- }
+.main-footer {
+    margin-top:20px;
+display: block;
+    
+}
+footer{
+    background-color: yellow;
+    color: red
+
+}
 @media only screen and (max-width: 1024px){
     .navbar-brand i,
     .navbar-brand .logo {

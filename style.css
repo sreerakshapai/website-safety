@@ -111,12 +111,17 @@ h1 ,h2 {
      margin-top: 20px;
    }
    .note img {max-width: 400px;}
-.outer-section{
+.outer-section  {
     display: flex;
     flex-direction: row;
 }
+.outer-section li{
+    list-style: none;
+}
 .outer-section a{
-    color: yellow;
+    color:red;
+
+    text-decoration: none;
 }
 aside{
     margin-top: 40px;
@@ -128,8 +133,9 @@ aside{
     margin-top: 20px;
     border-right: 1px solid #efd648;
 }
+
 .inner-section img{
-    max-width: 200px;
+    max-width: 500px;
     
 }
 

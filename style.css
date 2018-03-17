@@ -116,8 +116,10 @@ h1 ,h2 {
        text-align: center;
    }
    .note {
-    background-color:yellow;
+       margin-top: 20px;
+    
      padding: 20px 20px;
+     margin-bottom: 20px;
    }
    .note img {max-width: 300px;}
 .outer-section  {
@@ -169,7 +171,9 @@ table th {
    margin-top: 20px;
 }
 .why-us img {
-    max-width: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 .our-products{
     padding: 50px 50px;

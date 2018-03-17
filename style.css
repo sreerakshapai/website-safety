@@ -1,7 +1,7 @@
 body{
    
       
-       color:firebrick;
+       color:#B02E0C;
         font-size: 1em;
         font-weight: normal;
         font-family: 'Roboto Condensed', sans-serif;
@@ -14,7 +14,7 @@ h1 ,h2 {
     font-weight: 700;
 }
 #main-header{
-    background-color: yellow;
+    background-color: #EEF36A;
 }
 
 .navbar {
@@ -68,7 +68,7 @@ h1 ,h2 {
         background-color: #00316d;
     }
     .dropdown-menu{
-        background-color: yellow;
+        background-color: #EEF36A;
       
         border: 2px solid #C6F6FF;
     }
@@ -87,7 +87,7 @@ h1 ,h2 {
     padding: 40px 60px;
    }
    .header-content{
-    background-color:yellow;
+    background-color:#EEF36A;
    }
   .header-content p{
       text-align: justify;
@@ -107,7 +107,7 @@ h1 ,h2 {
        margin: 0 auto;
        padding: 10px 10px;
        text-align: center;
-       background-color:yellow;
+       background-color:#EEF36A;
 
        align-items: center;
 
@@ -141,14 +141,14 @@ aside{
     flex:1;
     padding-right:10px;
     margin-top: 20px;
-    border-right: 1px solid #efd648;
+    border-right: 1px solid #EEF36A;
 }
 /* producttype */
  .inner-section .fire-extin{
     border: 2px solid black;
 }
  .inner-section .inner-content  {
-background-color: yellow;
+background-color: #EEF36A;
 }
 
 .inner-section img{
@@ -182,6 +182,8 @@ table th {
 }
 .our-products img {
 max-width: 300px;
+margin-bottom: 30px;
+
 }
 /* our-clients */
 .our-clients{
@@ -192,6 +194,12 @@ max-width: 300px;
 
 .our-clients img{
     max-width: 300px;
+}
+
+/* testimonials */
+.testimonials{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* owl carousel */
 .owl-carousel p{
@@ -305,20 +313,20 @@ color: red;
     display: block;
 }
 .main-footer button{
-    background:firebrick;
+    background:#B02E0C;
     color: yellow;
     width:50%;
 }
 .main-footer a{
     text-decoration: none;
-    color: red;
+    color:#B02E0C;
 }
  .main-footer a:hover { 
     background-color:wheat;
 }
 footer{
-    background-color: yellow;
-    color: red
+    background-color: #EEF36A;
+    color: #B02E0C;
 }
 footer .connect{
     text-align: center;

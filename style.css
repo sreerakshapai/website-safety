@@ -1,26 +1,25 @@
 body{
-   
-      
-       color:#B02E0C;
+        color:#B02E0C;
         font-size: 1em;
         font-weight: normal;
         font-family: 'Roboto Condensed', sans-serif;
 
 }
-
 h1 ,h2 {
     color:red;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
 }
+iframe{
+    width:100%;
+}
 #main-header{
     background-color: #EEF36A;
+    padding: 0;
 }
 
 .navbar {
     margin: 0;
-    padding: 0;
-    margin-bottom: 20px;
     text-align: center;
     background-color: #00316d !important;
    
@@ -84,8 +83,7 @@ h1 ,h2 {
 
    
    .section-two .header-content{
-    margin: 10px auto;
-    padding: 40px 60px;
+    padding: 30px 60px;
    }
    .header-content{
     background-color:#EEF36A;
@@ -142,25 +140,20 @@ aside{
     flex:1;
     padding-right:10px;
     margin-top: 20px;
-    border-right: 1px solid #EEF36A;
 }
 /* producttype */
- .inner-section .fire-extin{
-    border: 2px solid black;
-}
- .inner-section .inner-content  {
-background-color: #EEF36A;
-}
+
+
 
 .inner-section img{
-    max-width: 300px;
+    max-width: 500px;
     padding: 10px 10px;
+    margin-bottom: 20px;
     
 }
 
 .inner-section{
     flex:3;
-    padding-top: 30px;
    
 }
 table th {
@@ -170,6 +163,10 @@ table th {
 .why-us{
    padding: 20px;
    margin-top: 20px;
+}
+.why-us button{
+    color: red;
+    background-color: yellow;
 }
 .why-us img {
     max-width: 500px;
@@ -337,11 +334,18 @@ footer{
 }
 footer .connect{
     text-align: center;
+    margin-top: 10px;
+
+}
+footer .links{
+    margin-top: 10px;
+    
 
 }
 
 footer .address{
     text-align: center;
+    margin-top: 10px;
 
 }
 @media only screen and (max-width: 1024px){

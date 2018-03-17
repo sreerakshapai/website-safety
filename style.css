@@ -11,6 +11,7 @@ h1 ,h2 {
 }
 iframe{
     width:100%;
+    margin-top: 20px;
 }
 #main-header{
     background-color: #EEF36A;
@@ -311,7 +312,7 @@ color: red;
     color:#B02E0C;
 }
  .main-footer a:hover { 
-    background-color:wheat;
+    background-color:red;
 }
 footer{
     background-color: #EEF36A;
